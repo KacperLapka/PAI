@@ -584,7 +584,7 @@ const sum2 = [1, 2, 3].reduce(function (a, b){
 console.log(sum2); // sum2 = "123" - bo podstawiliśmy string ""
 
 // --------------------------------------------
-// indeOf() - wyszukiwanie elementow w tablicy (pierwszy index)
+// indexOf() - wyszukiwanie elementow w tablicy (pierwszy index)
 // --------------------------------------------
 
 const tab = ['Marcin', 'Agnieszka', 'Ania', 'Monika'];
@@ -594,7 +594,7 @@ if (tab.indexOf('Ania') !== -1) {
 }
 
 // --------------------------------------------
-// indeOf() - wyszukiwanie elementow w tablicy (ostatni index)
+// lastIndexOf() - wyszukiwanie elementow w tablicy (ostatni index)
 // --------------------------------------------
 
 const tab = ['Marcin', 'Agnieszka', 'Ania', 'Monika'];
