@@ -685,12 +685,9 @@ const index = tab.findIndex(function (el){
     return el.gender == "m"
 })
 
-console.log("Index pasującego elementu: ", index);
-console.log("Psujący element: ", tab[index]);
+console.log("Index pasującego elementu: ", index); // Index pasującego elementu:  2
+console.log("Psujący element: ", tab[index]); //Psujący element: { name: "Marcin", gender: "m" }
 
-tab.splice(index,1);
-console.log(tab);
-/*
-Index pasującego elementu:  2
-Psujący element: { name: "Marcin", gender: "m" }
-*/
+var tab2 = tab.splice(index,1);
+console.log(tab2); // { name: "Marcin", gender: "m" }
+console.log(tab); // { name: "Monika", gender: "w" }, { name: "Agata", gender: "w" }, { name: "Patrycja", gender: "w" }
