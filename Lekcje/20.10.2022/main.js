@@ -443,8 +443,8 @@ tab.forEach(function (el) {
     console.log(el.toUpperCase());
 });
 /*
-MARCIN debugger
-ANIA debugger
+MARCIN
+ANIA
 AGNIESZKA
 */
 
